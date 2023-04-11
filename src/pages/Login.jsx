@@ -7,7 +7,6 @@ export const Login = () => {
   return (
     <div className={styleForm.containerLogin}>
       <Form/>
-        {/* <FormularioLogin/> */}
     </div>
   )
 }
