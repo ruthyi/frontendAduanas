@@ -10,13 +10,35 @@ export const Form = () => {
   const [email, setEmail] = useState('');
   const navigate = useNavigate()
 
-  function handleFormSubmit(event) {
+  async function handleFormSubmit(event) {
     event.preventDefault();
-    if (password!="" && email!="") { // Verifica si los campos están llenados
+    if (password != "" && email != "") {
 
-        navigate('/home')
-    }else{
-        Swal.fire('Todos los campos son obligatorios')
+      let salida = { "email": email, "password": password }
+      const body = JSON.stringify(salida);
+      const requestInit = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: body
+      };
+      async function fetchData() {
+        const response = await fetch("https://backendaduanas.onrender.com/Api/v1/login/", requestInit);
+        if (response.status == 200) {
+          const data = await response.json(); //Convierte la respuesta en un archivo json
+          console.log("salida", data.tokenSession, data.data._id, data.data.role)
+          Swal.fire('Bienvenido')
+          navigate('/home')
+        }else{
+          Swal.fire('Contraseña Incorrecta')
+        }
+
+      }
+      fetchData();
+
+
+      // 
+    } else {
+      Swal.fire('Todos los campos son obligatorios')
     }
   }
 
