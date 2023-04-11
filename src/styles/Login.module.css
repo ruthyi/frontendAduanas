@@ -121,23 +121,20 @@ input[type="password"] {
 }
 
 .btnForm{
+  background: #021e26 ;
+  color: white;
   margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
-.btnForm button{
+
+.btnForm:hover{
   background: #FF3D00;
-  width: 50%;
-  color: black;
-  border: white 8px outset;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3px 10px;
-  border: #FF3D00 5px solid;
-  border-radius: 20px;
 }
+
 .formContent {
   display: none;
 }

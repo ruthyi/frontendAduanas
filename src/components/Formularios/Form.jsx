@@ -76,7 +76,7 @@ export const Form = () => {
         </div>
 
         <div className={styleForm.btnForm}>
-          <button type="submit">Enviar</button>
+          <button type="submit">Iniciar Sesión</button>
         </div>
 
       </form>
