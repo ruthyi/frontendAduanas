@@ -41,7 +41,7 @@ export const Form = () => {
           dispatch(addTask(user))
           navigate('/home')
         } else {
-          Swal.fire('Contraseña Incorrecta')
+          Swal.fire('Contraseña o Correo electronico Incorrecto')
         }
 
       }
