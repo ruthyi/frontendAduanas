@@ -3,8 +3,8 @@ import { Home } from '../pages/Home'
 import { Login } from '../pages/Login'
 import { Forgot } from '../pages/Forgot'
 
-function FirstRoute() {
 
+function FirstRoute() {
   return (
     <main >
       <Routes>
