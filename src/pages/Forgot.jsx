@@ -1,7 +1,10 @@
 import React from 'react'
+import { FormAgency } from '../components/Formularios/FormAgency'
 
 export const Forgot = () => {
   return (
-    <div>Forgot</div>
+    <div>
+      <FormAgency/>
+    </div>
   )
 }

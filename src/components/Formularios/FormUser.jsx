@@ -7,7 +7,7 @@ export const FormUser = () => {
 
 
            
-                <form action="#" className="cod-form">
+                <form action="#" className={styleForm.codForm}>
                     <input type="number" min="0" pattern="^[0-9]+" id="nombre" name="nombre" placeholder="Id" className="input-100" required />
                     <input type="text" id="nombre" name="nombre" placeholder="Nombre Razon Social" className="input-100" required />
                     <input type="text" id="apellidos" name="apellidos" placeholder="Direccion" className="input-100" required />
