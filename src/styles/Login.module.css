@@ -105,9 +105,10 @@ input[type="password"] {
 }
 
 .formInput{
-  background: #ffffff;
+  background: #d85f5f;
   height: 1.2rem;
   border-radius: 8px;
+  width: 100%;
 }
 
 .inputGroupForgot{
