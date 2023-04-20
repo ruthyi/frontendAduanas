@@ -89,28 +89,13 @@ export const NavBarFirst = () => {
                                                 } text-gray-700 pt-1`}
                                         >
                                             <li>
-                                                <a
-                                                    className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 1
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion1">Opcion1</Link>
                                             </li>
                                             <li>
-                                                <a
-                                                    className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 2
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion2">Opcion2</Link>
                                             </li>
                                             <li>
-                                                <a
-                                                    className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 3
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion3">Opcion2</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -130,31 +115,15 @@ export const NavBarFirst = () => {
                                         </button>
                                         <ul
                                             className={`dropdown-menu absolute ${showSubOptions2 ? '' : 'hidden'
-                                                } text-gray-700 pt-1`}
-                                        >
+                                                } text-gray-700 pt-1`}>
                                             <li>
-                                                <a
-                                                    className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 1
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion1">Opcion1</Link>
                                             </li>
                                             <li>
-                                                <a
-                                                    className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 2
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion2">Opcion2</Link>
                                             </li>
                                             <li>
-                                                <a
-                                                    className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 3
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion3">Opcion2</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -171,33 +140,15 @@ export const NavBarFirst = () => {
                                                 <path d="M10 13l-5-5 1.41-1.41L10 10.18l3.59-3.59L15 8l-5 5z" />
                                             </svg>
                                         </button>
-                                        <ul
-                                            className={`dropdown-menu absolute ${showSubOptions3 ? '' : 'hidden'
-                                                } text-gray-700 pt-1`}
-                                        >
+                                        <ul className={`dropdown-menu absolute ${showSubOptions3 ? '' : 'hidden' } text-gray-700 pt-1`} >
                                             <li>
-                                                <a
-                                                    className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 1
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion1">Opcion1</Link>
                                             </li>
                                             <li>
-                                                <a
-                                                    className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 2
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion2">Opcion2</Link>
                                             </li>
                                             <li>
-                                                <a
-                                                    className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 3
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion3">Opcion2</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -219,35 +170,20 @@ export const NavBarFirst = () => {
                                                 } text-gray-700 pt-1`}
                                         >
                                             <li>
-                                                <a
-                                                    className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 1
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion1">Opcion1</Link>
                                             </li>
                                             <li>
-                                                <a
-                                                    className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 2
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion2">Opcion2</Link>
                                             </li>
                                             <li>
-                                                <a
-                                                    className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                                    href="#"
-                                                >
-                                                    Subopción 3
-                                                </a>
+                                                <Link className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/opcion3">Opcion2</Link>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
 
                                 <li className="text-gray-300 hover:text-org mr-4 py-2 rounded inline-flex items-center">
-                                     <Link to="/">Cerrar sesion</Link> 
+                                    <Link to="/">Cerrar sesion</Link>
                                 </li>
 
 
