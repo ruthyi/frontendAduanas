@@ -12,7 +12,7 @@
   overflow: hidden; 
 }
 .formHeader{
-  background: #021e26;
+  background: var(--bg-header);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@
 }
 
 .formHeader span {
-  color: #FF3D00;
+  color: var(--bg-orange);
 }
 .containerForm {
   padding: 0.625em 2.5em 2.5em;
@@ -46,7 +46,7 @@
   margin-bottom: 2em;
   overflow: hidden;
   font-family: AbeeZee;
-  color: #FF3D00;
+  color: var(--bg-orange);
   text-shadow: -1px -1px 0 black,
   0 -1px 0 var(--bg-header-footer), 1px -1px 0 var(--bg-header-footer),
   1px 0 0 var(--bg-header-footer), 1px 1px 0 var(--bg-header-footer),
@@ -57,7 +57,7 @@
 h3 {
   position: relative;
   display: inline-block;
-  color: #FF3D00;
+  color: var(--bg-orange);
   padding: 0 0.625+em;
 }
 
@@ -67,7 +67,7 @@ h3::before {
   content: '';
   width: 100%;
   height: 0.1875em;
-  background: #021e26;
+  background: var(--bg-header);
   top: 0.5em;
 }
 
@@ -86,7 +86,7 @@ h3::before {
 }
 
 .btnForm{
-  background: #021e26 ;
+  background: var(--bg-header) ;
   color: white;
   margin-top: 1rem;
   display: flex;

@@ -1,0 +1,27 @@
+.headerNav {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.headerNav img {
+    vertical-align: top;
+    width: 2.5em;
+}
+
+.headerNav h1 {
+    color: #fff;
+    font-family: AbeeZee;
+    font-weight: normal;
+    margin-top: 0.3125em;
+}
+
+.headerNav div {
+    margin-left: 0.5rem;
+}
+
+.headerNav span {
+    color: var(--bg-orange);
+}

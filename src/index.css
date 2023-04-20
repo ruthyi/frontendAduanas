@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +13,8 @@
 
 :root {
   --bg-header-footer: #341100;
-  --txt-hechos-border-nav: #B57EDC;
+  --bg-header: #021e26;
+  --bg-orange: #FF3D00;
   --bg-btn: #643C23;
   --border-txt-title: #996B42;
   --txt-cards: #FFFFFF;
@@ -19,7 +23,7 @@
 }
 
 html,
-body {
+body, main, #root {
   width: auto;
   height: 100%;
   
