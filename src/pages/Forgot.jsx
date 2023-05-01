@@ -4,7 +4,7 @@ import { FormAgency } from '../components/Formularios/FormAgency'
 
 export const Forgot = () => {
   return (
-    <div>
+    <div className={styleForm.containerLogin}>
       <FormAgency/>
     </div>
   )
