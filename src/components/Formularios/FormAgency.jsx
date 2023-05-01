@@ -7,7 +7,6 @@ export const FormAgency = () => {
     <div className={styleForm.codContainer}>
            
          <div className={styleForm.codContainer}>
-                  <HeaderForm />
                   <div className={styleForm.formTitle}>
                     <h3>Registrar agencia</h3>
                   </div>
